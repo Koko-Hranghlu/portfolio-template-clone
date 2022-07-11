@@ -1,0 +1,23 @@
+/*utility classes*/
+.uni-width {
+  width: min(87%, 700px);
+  margin: auto;
+}
+
+.pri-color {
+  color: #00c6ff;
+}
+
+.dark-bg {
+  background: #333;
+  color: white;
+}
+
+.center-items {
+  display: grid;
+  place-items: center;
+}
+
+.text-align {
+  text-align: center;
+}

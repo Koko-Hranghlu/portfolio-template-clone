@@ -1,0 +1,10 @@
+@media (max-width:600px) {
+  .grid-cont {
+    grid-template-columns: 1fr;
+  }
+
+  header div,
+  #about .text-cont {
+    text-align: center;
+  }
+}
