@@ -12,6 +12,7 @@
 html {
   scroll-behavior: smooth;
   font-family: "Kalam";
+  overflow-x: hidden;
 }
 
 a {
@@ -23,34 +24,34 @@ a {
   transition: all 0.3s ease;
 }
 
-header a, #project a.live, #contact a{
+header a, .project a.live, .contact a{
   border: 2px solid #00c6ff;
   padding: 5px 10px;
 }
 
-header a, #project h3, #contact a, #contact p, footer {
+header a, .project h3, .contact a, .contact p, footer {
   font-size: 1.7rem;
 }
 
-#about, #project, #contact, footer {
+.about, .project, .contact, footer {
   padding: 4rem 0;
 }
 
-#about h2, #project h2, #contact h2 {
+.about h2, .project h2, .contact h2 {
   margin-bottom: 3rem;
   font-size:2rem;
 }
 
-#about p, #project p, #project a {
+.about p, .project p, .project a {
   font-size: 1.4rem;
 }
 
-#about p, #project p{
+.about p, .project p{
   line-height: 1.6rem;
   font-weight: 400;
 }
 
-#project img, #about img{
+.project img, .about img{
   border-radius: 4px;
   width: 100%;
   box-shadow: 0 0 4px rgba(0, 0, 0, .2);
@@ -80,11 +81,11 @@ header h1{
 }
 
 /* project section */
-#project article:not(:last-child) {
+.project article:not(:last-child) {
  margin-bottom:7rem;
 }
 
-#project h3, #project p, #project a {
+.project h3, .project p, .project a {
   margin-bottom: 1.5rem;
 }
 
@@ -93,13 +94,14 @@ a.live{
 }
 
 /* contact section */
-#contact a {
+.contact a {
   width: min(70%, 300px)
 }
 
-#contact a:hover{
+.contact a:hover{
   background: #00c6ff;
 }
+
 .contact-info {
   gap: 2rem;
 }
@@ -116,7 +118,40 @@ footer > div > div{
   justify-content: space-between;
 }
 
+/* scroll effects */
+.effect {
+  opacity:0;
+  transition: all 1s ease;
+}
 
+.effect.active {
+  opacity: 1;
+}
+
+.x-left-effect {
+  transform: translateX(-25px);
+}
+
+.x-right-effect {
+  transform: translateX(25px);
+}
+
+.x-right-effect.active,
+.x-left-effect.active{
+  transform: translateX(0);
+}
+
+.y-up-effect {
+  transform: translateY(25px);
+}
+
+.y-up-effect.active {
+  transform: translateY(0);
+}
+
+.delay {
+  transition-delay: 0.5s;
+}
 
 
 

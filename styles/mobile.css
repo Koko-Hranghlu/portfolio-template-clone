@@ -4,7 +4,16 @@
   }
 
   header div,
-  #about .text-cont {
+  .about div.text-cont {
     text-align: center;
   }
+  
+  .effect:not(h2){
+    transform: translateY(25px);
+  }
+  
+  .effect.active {
+    transform: translateY(0);
+  }
+  
 }
