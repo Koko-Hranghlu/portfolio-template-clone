@@ -5,11 +5,11 @@
 }
 
 .pri-color {
-  color: #00c6ff;
+  color: #00cdac;
 }
 
 .dark-bg {
-  background: #333;
+background: linear-gradient(135deg,#02aab0,#00cdac);
   color: white;
 }
 
