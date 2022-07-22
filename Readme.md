@@ -1,3 +1,3 @@
-A modified and stripped-down version of Gatsby's simplefolio.
+A clone version of Gatsby's simplefolio
 
-I used vanilla CSS for this project and managed to do so with less than 150 lines of code!
+I used vanilla CSS and little JavaScript for this project. The codes written in here is less than half of the original's version.
