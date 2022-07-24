@@ -63,8 +63,7 @@ header{
 }
 
 header h1{
-  font-size: 2.5rem;
-  line-height: 1.5;
+  font:bold 2.5rem/1.5 'Montserrat';
   margin-bottom: 1.5rem;
 }
 
@@ -125,7 +124,7 @@ a.source:hover {
 }
 
 /* hover effects */
-.contact a::before {
+.contact a::before{
   content: "";
   position: absolute;
   inset: 0;
@@ -136,7 +135,7 @@ a.source:hover {
   transition: all 0.2s ease;
 }
 
-.contact a:hover::before {
+.contact a:hover::before{
   transform: scalex(1)
 }
 
