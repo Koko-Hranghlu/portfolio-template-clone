@@ -7,4 +7,5 @@ I cloned the portfolio template using vanilla CSS and a little bit of JavaScript
 
 The source code of this project is also less than half of the original version!
 
-## Original Author-  **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev
+## Authors
+- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
